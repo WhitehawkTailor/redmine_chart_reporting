@@ -20,7 +20,7 @@ In case you checked the compatibility with any Redmine version, please let me kn
 > The plugin uses API calls, so API must be activated in Redmine (see Administration/Settings/API).
 > In some case, when the issue list is out of any project the browser may require further authentication.
 > In this case the user must have an API access key, which will be generated automatically when user opens his "My account" page.
-> When the script realises missing API access key, then redirect the user to the "My Accont" page.
+> When the script realises missing API access key, then redirects the user to the "My Accont" page.
 
 ## Features
 * Displays a donut chart on the issues list based on the selected fields.
