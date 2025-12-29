@@ -1,4 +1,4 @@
-# Redmine charts
+# Redmine charts - v1.0.0
 This is a plugin for [Redmine](http://www.redmine.org/).
 
 It is a simple chart reporting plugin for Redmine to visualize the statistics of an issue list by displaying a donnut chart based on any selected field of the issue list.
@@ -62,18 +62,18 @@ $ podman exec -it redmine bundle exec rake redmine:plugins:migrate NAME=redmine_
 restart Redmine
 
 ## Dependencies
-The plugin includes chart.umd.min.js from https://www.chartjs.org.
+The plugin includes chart.umd.min.js from [https://www.chartjs.org](https://www.chartjs.org).
 It is a one file version of chart.js that embeds all the functions and assets that is required to draw a chart.
 You can replace it to a newer version, but compatibility is not granted.
-Find the chart file here: redmine/plugins/redmine_chart_reporting/assets/javascripts/
+Find the chart file here: `redmine/plugins/redmine_chart_reporting/assets/javascripts/`
 
 
 ## Localization
-The plugin initially supports two languages only (English, Hungarian). The language is selected based on the parent page language settings in HTML. It is the language that the user uses in Redmine.
+The plugin initially supports two languages (English, Hungarian). The language is selected based on the parent page language settings in HTML. It is the language that the user uses in Redmine.
 
-Localization can be extended, just add your language to the localization dictionary in the reporting_logic.js file.
+Localization can be extended, just add your language to the localization dictionary in the `reporting_logic.js` file.
 
-The location of the file: redmine/plugins/redmine_chart_reporting/assets/javascripts/
+The location of the file: `redmine/plugins/redmine_chart_reporting/assets/javascripts/`
 ```javascript
 const l10n = {
         hu: {
