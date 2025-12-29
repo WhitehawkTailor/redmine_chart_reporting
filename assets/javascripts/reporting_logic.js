@@ -1,5 +1,5 @@
 (function() {
-    console.log("Redmine Reporting Plugin [16]: https://github.com/WhitehawkTailor/redmine_chart_reporting - STARTED");
+    console.log("Redmine Chart Reporting Plugin [16]: https://github.com/WhitehawkTailor/redmine_chart_reporting - STARTED");
     
     //Localization - Extend the I10n array with your language
     const lang = $('html').attr('lang') || 'en';
