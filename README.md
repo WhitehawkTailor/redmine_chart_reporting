@@ -1,4 +1,4 @@
-# Redmine charts - v1.0.0 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=AAG2P7YL5VEKU&no_recurring=0&currency_code=EUR&item_name=GitHub-redmine-charts)
+# Redmine charts - v1.0.0 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=AAG2P7YL5VEKU&no_recurring=0&currency_code=EUR&item_name=GitHub-Redmine-Charts)
 
 This is a plugin for [Redmine](http://www.redmine.org/).
 
