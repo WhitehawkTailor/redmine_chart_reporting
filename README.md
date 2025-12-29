@@ -4,11 +4,11 @@ It is a simple chart reporting plugin for Redmine to visualize the statistics of
 ## Usage
 The plugin automatically appears on issue pages just after the filters.
 
-It is possible to close/open it with the > sign before the "Charts" title.
-
-It works just like the "Filters" title above.
+It is possible to close/open the chart arrea with the > sign before the "Charts" title. It works just like the "Filters" title above.
 
 You can change the column parameter (Group by) for the chart. 
+
+The apperance of data above the figure can be switched on/off. Hints above any piece of the figure show the related data of the area.
 
 ![redmine_chart_reporting_02](https://github.com/user-attachments/assets/c5df10c8-8937-41a0-be10-6bc7eae46cd7)
 
@@ -24,12 +24,23 @@ $ podman exec -it redmine bundle exec rake redmine:plugins:assets RAILS_ENV=prod
 ```
 restart Redmine
 
+## Uninstall
+```
+$ cd redmine/plugins
+$ rake redmine:plugins:migrate NAME=redmine_indicator VERSION=0
+```
+In case Redmine operates in a container ( podman, or docker) then run this (redmine is the name of the container):
+```
+$ podman exec -it redmine bundle exec rake redmine:plugins:migrate NAME=redmine_indicator VERSION=0
+```
+restart Redmine
+
 ## Localization
-The plugin initially supports two languages only (English, Hungarian), but it can be easily extended.
+The plugin initially supports two languages only (English, Hungarian). The language is selected based on the parent page language settings in HTML. It is the language that the user uses in Redmine.
 
-Add your language to the localization dictionaryin the reporting_logic.js file.
+Localization can be extended, just add your language to the localization dictionary in the reporting_logic.js file.
 
-The location is: redmine/plugins/redmine_chart_reporting/assets/javascripts/
+The location of the file: redmine/plugins/redmine_chart_reporting/assets/javascripts/
 ```
 const l10n = {
         hu: {
