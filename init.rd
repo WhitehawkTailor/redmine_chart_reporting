@@ -2,7 +2,7 @@ Redmine::Plugin.register :redmine_chart_reporting do
   name 'Redmine Chart Reporting for issues'
   author 'Akos Szabo'
   description 'Provides statistics on issue lists based on the selected fields'
-  version '0.0.9'
+  version '1.0.0'
   url 'https://github.com/WhitehawkTailor/redmine_chart_reporting'
   author_url 'https://github.com/WhitehawkTailor'
   requires_redmine version_or_higher: '5.0'
