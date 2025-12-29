@@ -1,4 +1,5 @@
-# Redmine charts - v1.0.0
+# Redmine charts - v1.0.0 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?business=AAG2P7YL5VEKU&no_recurring=0&currency_code=EUR)
+
 This is a plugin for [Redmine](http://www.redmine.org/).
 
 It is a simple chart reporting plugin for Redmine to visualize the statistics of an issue list by displaying a donnut chart based on any selected field of the issue list.
