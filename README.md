@@ -2,7 +2,7 @@
 
 This is a plugin for [Redmine](http://www.redmine.org/).
 
-It is a simple chart reporting plugin for Redmine to visualize the statistics of an issue list by displaying a donnut chart based on any selected field of the issue list.
+It is a simple chart reporting plugin for Redmine to visualize the statistics of an issue list by displaying a donut chart based on any selected field of the issue list.
 
 ![redmine_chart_reporting_02](https://github.com/user-attachments/assets/c5df10c8-8937-41a0-be10-6bc7eae46cd7)
 
