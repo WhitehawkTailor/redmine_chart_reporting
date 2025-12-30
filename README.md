@@ -21,7 +21,7 @@ In case you checked the compatibility with any Redmine version, please let me kn
 > The plugin uses API calls, so API must be activated in Redmine (see Administration/Settings/API).
 > In some case, when the issue list is out of any project the browser may require further authentication.
 > In this case the user must have an API access key, which will be generated automatically when user opens his "My account" page.
-> When the script realises missing API access key, then redirects the user to the "My Accont" page.
+> When the script realizes missing API access key, then redirects the user to the "My Account" page.
 
 ## Features
 * Displays a donut chart on the issues list based on the selected fields.
@@ -34,7 +34,7 @@ In case you checked the compatibility with any Redmine version, please let me kn
 * The plugin automatically appears on issue pages just after the filters.
 * It is possible to close/open the chart arrea with the > sign before the "Charts" title. It works just like the "Filters" title above.
 * You can change the column parameter (Group by) for the chart. 
-* The apperance of data above the figure can be switched on/off. Hints above any piece of the figure show the related data of the area.
+* The appearance of data above the figure can be switched on/off. Hints above any piece of the figure show the related data of the area.
 * Change the filter settings and using actions the chart will be recalculated.
 * Change the selected columns under the options and the new column will appear in the "Group by" list of the chart.
 
