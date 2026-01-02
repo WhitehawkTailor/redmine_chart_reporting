@@ -84,7 +84,7 @@ $ podman exec -it redmine bundle exec rake redmine:plugins:migrate NAME=redmine_
 restart Redmine
 
 ## Dependencies
-The plugin includes ***chart.umd.min.js*** from [https://www.chartjs.org](https://www.chartjs.org).
+The plugin includes **`chart.umd.min.js`** from [https://www.chartjs.org](https://www.chartjs.org).
 It is a one file version of chart.js that embeds all the functions and assets that is required to draw a chart.
 You can replace it to a newer version, but compatibility is not granted.
 Location of the chart file: `redmine/plugins/redmine_chart_reporting/assets/javascripts/`
@@ -93,9 +93,9 @@ Location of the chart file: `redmine/plugins/redmine_chart_reporting/assets/java
 ## Localization
 The plugin initially supports two languages (English, Hungarian). The language is selected based on the parent page language settings in HTML. It is the language that the user uses in Redmine.
 
-Localization can be extended, just add your language to the localization dictionary in the `reporting_logic.js` file.
+Localization can be extended, just add your language to the localization dictionary in the **`reporting_logic.js`** file.
 
-The location of the file: `redmine/plugins/redmine_chart_reporting/assets/javascripts/`
+The location of the file: **`redmine/plugins/redmine_chart_reporting/assets/javascripts/`**
 ```javascript
 const l10n = {
         hu: {
