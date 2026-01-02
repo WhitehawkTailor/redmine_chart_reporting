@@ -7,9 +7,10 @@ It is a simple chart reporting plugin for Redmine. It is placed on all the issue
 * Open vs Closed chart. This can handle all the issue from the list (open vs closed), or only the issues were created in the given period (created vs closed).
 
 ***Issue statistics by any field***
-![redmine_chart_reporting_02](https://github.com/user-attachments/assets/c5df10c8-8937-41a0-be10-6bc7eae46cd7)
+![donut_chart](https://github.com/user-attachments/assets/a97b02b3-0df3-4daa-b942-203f1b2e693d)
 
-***Closed and Resolved chart***
+
+***Open and Closed chart***
 ![closed_resolved_chart](https://github.com/user-attachments/assets/3da3889e-a5c6-412d-9144-b1f390e841b4)
 
 This plugin is powered by:
