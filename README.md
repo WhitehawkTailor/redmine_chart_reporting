@@ -2,7 +2,7 @@
 
 This is a plugin for [Redmine](http://www.redmine.org/).
 
-It is a simple chart reporting plugin for Redmine. It is placed on all the issue list pages that has a filter on the top. Currently there is two kind of charts available. These are displayed under the filters with a tabed are.
+It is a simple chart reporting plugin for Redmine. It is placed on all the issue list pages that has a filter on the top. Currently there are two kind of charts available. These are displayed under the filters with a tabed area.
 * Issue list statistic based on a selected field
 * Open vs Closed chart. This can handle all the issue from the list (open vs closed), or only the issues were created in the given period (created vs closed).
 
