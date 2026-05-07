@@ -75,11 +75,11 @@ restart Redmine
 ## Uninstall
 ```
 $ cd redmine/plugins
-$ rake redmine:plugins:migrate NAME=redmine_indicator VERSION=0
+$ rake redmine:plugins:migrate NAME=redmine_chart_reporting VERSION=0
 ```
 In case Redmine operates in a container ( podman, or docker) then run this (redmine is the name of the container):
 ```
-$ podman exec -it redmine bundle exec rake redmine:plugins:migrate NAME=redmine_indicator VERSION=0
+$ podman exec -it redmine bundle exec rake redmine:plugins:migrate NAME=redmine_chart_reporting VERSION=0
 ```
 restart Redmine
 
